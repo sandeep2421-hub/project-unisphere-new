@@ -1,0 +1,127 @@
+/* General container styling */
+.question-papers-container {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.9),rgba(88, 167, 241, 0.7));
+    color: white;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Title and subtitle */
+.qp-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f2c941;
+}
+
+.qp-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Search bar styling */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 50%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background: #f2c941;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.filter-btn:hover {
+    background: #e0b72e;
+}
+
+/* Cards layout */
+.qp-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Individual question paper card */
+.qp-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.qp-card:hover {
+    transform: scale(1.05);
+    border: 2px solid #f2c941;
+}
+
+/* Download button */
+.download-btn {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: #f2c941;
+    margin-top: 10px;
+}
+
+.download-btn:hover {
+    background: #e0b72e;
+}
+
+/* Trending Papers section */
+.trending-papers {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #f2c941;
+}
+
+.trending-title {
+    font-size: 1.8rem;
+    color: #f2c941;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .qp-list {
+        grid-template-columns: 1fr;
+    }
+
+    .search-input {
+        width: 80%;
+    }
+}

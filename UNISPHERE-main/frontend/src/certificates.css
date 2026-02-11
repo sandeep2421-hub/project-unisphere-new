@@ -1,0 +1,16 @@
+/* Minimal styles for Certificates page to prevent missing import errors */
+.certificates-page {
+  padding: 16px;
+  color: #222;
+  background: transparent;
+}
+.certificates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* small responsive fix */
+@media (max-width: 600px) {
+  .certificates-page { padding: 12px; }
+}

@@ -1,0 +1,67 @@
+.campus-container {
+    margin-top: 100px;
+    padding: 20px;
+    background-image: linear-gradient(rgba(50, 59, 99, 0.7),rgba(4,9,30,0.7)),url(class1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.campus-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0); 
+    padding: 30px; 
+    border-radius: 40px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    text-align: center;
+}
+
+.section:hover {
+    border: 4px solid rgb(242, 201, 65);
+    backdrop-filter: blur(50px);
+    transition: 0.5s;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 25px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-align: center;
+}
+
+.icon-grid a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white ; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icon-grid a p {
+    color: white ;
+}
+
+.icon-grid img {
+    width: 50px;
+    height: 50px;
+}
+
+
+

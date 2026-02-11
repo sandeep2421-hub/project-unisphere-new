@@ -1,0 +1,104 @@
+.events-container {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    background-image: linear-gradient(rgba(245, 183, 135, 0.7),rgba(156, 172, 244, 0.818));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.events-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #faf7f7;
+    margin-top: 20px;
+}
+
+.events-subtitle {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Event Cards Layout */
+.events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 60px;
+    padding: 40px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.event-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-content {
+    width: 100%;
+    background: rgba(212, 203, 245, 0);
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(255, 132, 0);
+}
+
+.event-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.event-content p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+/* Explore Button */
+.explore-btn1 {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #f2c941;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.explore-btn1:hover {
+    background: #e0b72e;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .events-list {
+        grid-template-columns: 1fr;
+    }
+
+    .event-card {
+        height: 300px;
+    }
+}

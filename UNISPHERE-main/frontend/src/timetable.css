@@ -1,0 +1,22 @@
+
+
+
+.heading{
+    margin-top: 160px;
+    display: flex;
+    margin-left: 800px;
+    color: rgb(142, 137, 247);
+    text-align: center;
+}
+
+.timetable {
+    background-image:url( timetable1.png);
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 56vh;
+    min-width: 55%;
+}

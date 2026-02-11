@@ -1,0 +1,97 @@
+.df {
+  padding: 20px;
+  background-image: linear-gradient(rgba(245, 183, 135, 0.7), rgba(120, 142, 243, 0.9));
+  height: 100vh;
+  width: 100%;
+
+}
+
+.details-form {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  background-image: linear-gradient(rgba(246, 201, 97, 0.7), rgba(102, 249, 210, 0.9));
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 150px;
+}
+
+.details-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.details-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.details-form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.details-form input,
+.details-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.details-form input:focus,
+.details-form select:focus {
+  border-color: #fece93;
+}
+
+.details-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.details-form button[type="submit"] {
+  background: #99a6fb;
+  color: #fff;
+}
+
+.details-form button[type="submit"]:hover {
+  background: #fec157;
+}
+
+.details-form button[type="button"] {
+  background: #ccc;
+  color: #333;
+  margin-top: 10px;
+}
+
+.details-form button[type="button"]:hover {
+  background: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .details-form {
+    max-width: 90%;
+    padding: 15px;
+  }
+}

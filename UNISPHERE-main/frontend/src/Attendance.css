@@ -1,0 +1,615 @@
+.attendance-page {
+  background-image: linear-gradient(rgba(245, 183, 135, 0.7), rgba(120, 142, 243, 0.9));
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.attendance-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.attendance-container h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.attendance-container > p {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.overall-section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.overall-section h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.stats-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-item {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.stat-item label {
+  display: block;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.stat-value {
+  color: #333;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-value.green {
+  color: #4caf50;
+}
+
+.stat-value.red {
+  color: #ff6b6b;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  background: #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgb(255, 184, 71), #4caf50);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  color: #666;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+.target-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.target-section label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.target-input-group {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.target-slider {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: #ddd;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.target-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(255, 184, 71);
+  cursor: pointer;
+}
+
+.target-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(255, 184, 71);
+  cursor: pointer;
+  border: none;
+}
+
+.target-input {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.target-input:focus {
+  outline: none;
+  border-color: rgb(255, 184, 71);
+}
+
+.target-display {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.add-subject-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.add-subject-section h3 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.add-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.subject-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.subject-input:focus {
+  outline: none;
+  border-color: rgb(255, 184, 71);
+}
+
+.add-btn {
+  padding: 12px 25px;
+  background: rgb(255, 184, 71);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #f1bf53;
+}
+
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.subject-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.subject-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.subject-header h3 {
+  color: #333;
+  margin: 0;
+  font-size: 1.3em;
+  flex: 1;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #ff5252;
+}
+
+.attendance-display {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.attendance-percentage {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.attendance-percentage.green {
+  color: #4caf50;
+}
+
+.attendance-percentage.red {
+  color: #ff6b6b;
+}
+
+.mini-progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.mini-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgb(255, 184, 71), #4caf50);
+  transition: width 0.3s ease;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+
+.input-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 184, 71);
+  background: white;
+  color: rgb(255, 184, 71);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.control-btn:hover {
+  background: rgb(255, 184, 71);
+  color: white;
+}
+
+.class-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.class-input:focus {
+  outline: none;
+  border-color: rgb(255, 184, 71);
+}
+
+.classes-needed {
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid rgb(255, 184, 71);
+  border-radius: 5px;
+}
+
+.classes-needed label {
+  display: block;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 0.85em;
+}
+
+.needed-value {
+  color: #333;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.no-subjects {
+  text-align: center;
+  color: #999;
+  font-size: 1.1em;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* Section Header */
+.section-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+/* Lab Card Styling */
+.subject-card.lab-card {
+  border-left-color: #4caf50;
+}
+
+.add-lab-btn {
+  background: #4caf50;
+}
+
+.add-lab-btn:hover {
+  background: #45a049;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+/* Attendance Breakdown */
+.attendance-breakdown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.breakdown-item {
+  background: linear-gradient(135deg, #f9f9f9, #f0f0f0);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border-left: 5px solid rgb(255, 184, 71);
+}
+
+.breakdown-item h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.breakdown-percentage {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.breakdown-percentage.green {
+  color: #4caf50;
+}
+
+.breakdown-percentage.red {
+  color: #ff6b6b;
+}
+
+.breakdown-stats {
+  color: #999;
+  margin: 0;
+  font-size: 0.95em;
+}
+
+/* No Items */
+.no-items {
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+  font-size: 1.1em;
+  grid-column: 1 / -1;
+}
+
+/* Eligibility Section */
+.eligibility-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.eligibility-section h3 {
+  color: #333;
+  margin: 0 0 20px 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.eligibility-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 6px solid;
+}
+
+.eligibility-card.eligible {
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(76, 175, 80, 0.05));
+  border-left-color: #4caf50;
+}
+
+.eligibility-card.not-eligible {
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 107, 107, 0.05));
+  border-left-color: #ff6b6b;
+}
+
+.eligibility-icon {
+  font-size: 3em;
+  min-width: 80px;
+  text-align: center;
+}
+
+.eligibility-text {
+  flex: 1;
+}
+
+.eligibility-status {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.eligibility-card.eligible .eligibility-status {
+  color: #4caf50;
+}
+
+.eligibility-card.not-eligible .eligibility-status {
+  color: #ff6b6b;
+}
+
+.eligibility-detail {
+  color: #666;
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Eligibility Badge on Individual Cards */
+.eligibility-badge {
+  background: linear-gradient(135deg, #f9f9f9, #f0f0f0);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border-left: 4px solid rgb(255, 184, 71);
+}
+
+.eligibility-badge label {
+  display: block;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.95em;
+}
+
+.eligibility-status-badge {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.eligibility-status-badge.eligible {
+  background: rgba(76, 175, 80, 0.15);
+  color: #4caf50;
+  border-left: 4px solid #4caf50;
+}
+
+.eligibility-status-badge.not-eligible {
+  background: rgba(255, 107, 107, 0.15);
+  color: #ff6b6b;
+  border-left: 4px solid #ff6b6b;
+}
+
+@media (max-width: 768px) {
+  .attendance-container {
+    padding: 20px 10px;
+  }
+
+  .attendance-container h1 {
+    font-size: 1.8em;
+  }
+
+  .stats-card {
+    grid-template-columns: 1fr;
+  }
+
+  .subjects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .target-input-group {
+    flex-direction: column;
+  }
+
+  .add-input-group {
+    flex-direction: column;
+  }
+
+  .attendance-breakdown {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .eligibility-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .eligibility-icon {
+    min-width: auto;
+  }
+}

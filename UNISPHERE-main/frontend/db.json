@@ -1,0 +1,1264 @@
+{
+  "users": [
+    {
+      "id": "845d",
+      "name": "claro",
+      "username": "engoulp",
+      "email": "pubg4thday@gmail.com",
+      "phone": "8746376351",
+      "password": "engoulp1",
+      "details": {
+        "university": "Vit vellore ",
+        "course": "BTech IT",
+        "year": "2024",
+        "privacy": "public"
+      },
+      "detailsFilled": true
+    },
+    {
+      "id": "4233",
+      "name": "sree",
+      "username": "sri",
+      "email": "sree@gmail.com",
+      "phone": "6543789321",
+      "password": "sree"
+    },
+    {
+      "id": "cca8",
+      "name": "arjun",
+      "username": "arjun",
+      "email": "arjun@gmail.com",
+      "phone": "9746352651",
+      "password": "arjun"
+    },
+    {
+      "id": "6d79",
+      "name": "sreeees",
+      "username": "sreeee",
+      "email": "sree1@gmail.com",
+      "phone": "8756473512",
+      "password": "arjun"
+    },
+    {
+      "id": "bcdb",
+      "name": "Bellamkonda Venkata Manoj Kumar",
+      "username": "engoulp1",
+      "email": "engoulp12@gmail.com",
+      "phone": "8746374781",
+      "password": "engoulp",
+      "details": {
+        "university": "iit ",
+        "course": "mid",
+        "year": "2023"
+      },
+      "detailsFilled": true
+    },
+    {
+      "id": "857f",
+      "name": "arjun12",
+      "username": "arjun12",
+      "email": "sjkdbckjdaswj@gmail.com",
+      "phone": "1234567890",
+      "password": "123",
+      "detailsFilled": false,
+      "details": {}
+    },
+    {
+      "id": "afeb",
+      "name": "harshit",
+      "username": "harsh",
+      "email": "harsh12@gmail.com",
+      "phone": "7654321982",
+      "password": "harsh",
+      "detailsFilled": true,
+      "details": {
+        "university": "Vit vellore ",
+        "course": "CSE",
+        "year": "2023",
+        "privacy": "private"
+      }
+    },
+    {
+      "id": "0c50",
+      "name": "sandeep kumar",
+      "username": "sandeep",
+      "email": "s@gmail.com",
+      "phone": "6281754652",
+      "password": "sandy",
+      "detailsFilled": true,
+      "details": {
+        "university": "vit university",
+        "course": "cse",
+        "year": "2023",
+        "privacy": "private"
+      }
+    }
+  ],
+  "courses": [
+    {
+      "id": "cse101",
+      "name": "Data Structures",
+      "materials": [
+        {
+          "id": "m1",
+          "title": "Linked List PDF",
+          "url": "/files/linked_list.pdf"
+        },
+        {
+          "id": "m2",
+          "title": "Sorting Algorithms",
+          "url": "/files/linked_list.pdf"
+        }
+      ]
+    },
+    {
+      "id": "cse102",
+      "name": "Probability and Statistics",
+      "materials": [
+        {
+          "id": "m3",
+          "title": "Test of Hypothesis",
+          "url": "/files/linked_list.pdf"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1743355445350",
+      "name": "Book 29 Mar 2025 (1).pdf",
+      "fileUrl": "/uploads/Book 29 Mar 2025 (1).pdf"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1743432491193",
+      "text": "Hello",
+      "imageUrl": null,
+      "timestamp": "8:18:11 PM",
+      "sender": "claro"
+    },
+    {
+      "id": "1743435238162",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/66a02bcc-d98d-4628-8ed5-6040c5840ace",
+      "timestamp": "9:03:58 PM",
+      "sender": "arjun12"
+    },
+    {
+      "id": "1743489927147",
+      "text": "hello",
+      "imageUrl": null,
+      "timestamp": "12:15:27 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    },
+    {
+      "id": "1743496703127",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/12b4bb93-c6e4-4bcc-9858-a2c535e220d0",
+      "timestamp": "2:08:23 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    },
+    {
+      "id": "1743615850710",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/c665a7b8-99cc-44da-8493-3c05f5b654f4",
+      "timestamp": "11:14:10 PM",
+      "sender": "sandeep kumar"
+    },
+    {
+      "id": "1743616702895",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/7449131d-9fb0-44e8-a182-e69ee54d05ac",
+      "timestamp": "11:28:22 PM",
+      "sender": "sandeep kumar"
+    },
+    {
+      "id": "1743663380323",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3001/1d4e2dd7-524c-4575-b59e-e22d912b6fbe",
+      "timestamp": "12:26:20 PM",
+      "sender": "sandeep kumar"
+    },
+    {
+      "id": "1743684251306",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3001/37b0ca55-bc71-4b50-b9d9-60d4bc1ddee3",
+      "timestamp": "6:14:11 PM",
+      "sender": "sandeep kumar"
+    },
+    {
+      "id": "1770571425877",
+      "text": "ji",
+      "imageUrl": "blob:http://localhost:3000/fedade97-9ba9-4262-8f9b-27989da3e2e8",
+      "timestamp": "10:53:45 PM",
+      "sender": "sandeep kumar"
+    },
+    {
+      "id": "1770571454300",
+      "text": "3-4",
+      "imageUrl": null,
+      "timestamp": "10:54:14 PM",
+      "sender": "sandeep kumar"
+    }
+  ],
+  "message": [
+    {
+      "id": "1743420264905",
+      "text": "hi",
+      "timestamp": "4:54:24 PM",
+      "sender": "claro",
+      "program": "BTech CSE",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743426320189",
+      "text": "hello",
+      "timestamp": "6:35:20 PM",
+      "sender": "claro",
+      "program": "BTech IT",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743478819683",
+      "text": "hello",
+      "timestamp": "9:10:19 AM",
+      "sender": "harshit",
+      "program": "CSE",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743489912323",
+      "text": "hi",
+      "timestamp": "12:15:12 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    },
+    {
+      "id": "1743615789871",
+      "text": "HELLO",
+      "timestamp": "11:13:09 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1743616638827",
+      "text": "hi",
+      "timestamp": "11:27:18 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1743616816427",
+      "text": "hi",
+      "timestamp": "11:30:16 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1743663322333",
+      "text": "hi",
+      "timestamp": "12:25:22 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1743683319616",
+      "text": "hi",
+      "timestamp": "5:58:39 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1743683335029",
+      "text": "hello",
+      "timestamp": "17:58:55",
+      "sender": "Bellamkonda Venkata Manoj Kumar",
+      "program": "mid",
+      "university": "iit "
+    },
+    {
+      "id": "1770571302645",
+      "text": "hi'",
+      "timestamp": "10:51:42 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    },
+    {
+      "id": "1770571348100",
+      "text": "hi",
+      "timestamp": "10:52:28 PM",
+      "sender": "sandeep kumar",
+      "program": "cse",
+      "university": "vit university"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Rivera",
+      "date": "2026-03-10",
+      "background": "back.jpg",
+      "description": "Rivera is VIT Vellore's largest cultural fest, featuring music, dance, and literary events.",
+      "university": "VIT Vellore"
+    },
+    {
+      "id": "2",
+      "name": "TechNova",
+      "date": "2026-04-15",
+      "background": "back.jpg",
+      "description": "TechNova is a grand tech fest hosted by IIT Bombay, showcasing innovation, AI, and robotics.",
+      "university": "IIT Bombay"
+    },
+    {
+      "id": "3",
+      "name": "HackInfinity",
+      "date": "2026-06-20",
+      "background": "back.jpg",
+      "description": "HackInfinity is an intense 36-hour hackathon held at BITS Pilani, focusing on AI and blockchain.",
+      "university": "BITS Pilani"
+    },
+    {
+      "id": "4",
+      "name": "Code Sprint 2025",
+      "date": "2026-05-05",
+      "background": "back.jpg",
+      "description": "Annual coding competition featuring algorithmic challenges and real-world problem solving.",
+      "university": "VIT Vellore"
+    }
+  ],
+  "questionPapers": [
+    {
+      "id": "1",
+      "name": "Data Structures & Algorithms",
+      "university": "VIT Vellore",
+      "year": "2023",
+      "category": "CSE",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": "2",
+      "name": "Digital Electronics",
+      "university": "IIT Madras",
+      "year": "2022",
+      "category": "ECE",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Thermodynamics",
+      "university": "IISc Bangalore",
+      "year": "2021",
+      "category": "Mechanical",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": "4",
+      "name": "Structural Analysis",
+      "university": "Delhi University",
+      "year": "2020",
+      "category": "Civil",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": "5",
+      "name": "Power Systems",
+      "university": "IIT Bombay",
+      "year": "2023",
+      "category": "EEE",
+      "url": "/files/linked_list.pdf"
+    }
+  ],
+  "internships": [
+    {
+      "id": "int_001",
+      "company": "Google",
+      "position": "Software Engineering Intern",
+      "location": "Bangalore, India",
+      "duration": "3 months",
+      "stipend": "₹50,000/month",
+      "eligibility": "2nd and 3rd year students (CSE/IT)",
+      "applicationDeadline": "2026-04-15",
+      "description": "Work on real-world projects, mentorship from experienced engineers, exposure to cutting-edge technology."
+    },
+    {
+      "id": "int_002",
+      "company": "Microsoft",
+      "position": "Data Science Intern",
+      "location": "Hyderabad, India",
+      "duration": "6 months",
+      "stipend": "₹45,000/month",
+      "eligibility": "3rd and 4th year students (CSE/IT/ECE)",
+      "applicationDeadline": "2026-03-30",
+      "description": "Work with AI/ML teams, real-world data analysis, Python and cloud technologies."
+    },
+    {
+      "id": "int_003",
+      "company": "Amazon",
+      "position": "Backend Development Intern",
+      "location": "Bangalore, India",
+      "duration": "3 months",
+      "stipend": "₹48,000/month",
+      "eligibility": "2nd and 3rd year students (CSE/IT)",
+      "applicationDeadline": "2026-04-10",
+      "description": "Develop scalable backend services, work with Java/C++, learn cloud infrastructure."
+    },
+    {
+      "id": "int_004",
+      "company": "Infosys",
+      "position": "Java Developer Intern",
+      "location": "Pune, India",
+      "duration": "4 months",
+      "stipend": "₹35,000/month",
+      "eligibility": "2nd and 3rd year students (CSE/IT)",
+      "applicationDeadline": "2026-03-20",
+      "description": "Enterprise software development, REST APIs, database management, agile methodologies."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_001",
+      "company": "Google",
+      "position": "Software Engineer",
+      "location": "Bangalore, India",
+      "salary": "₹15L - ₹25L per annum",
+      "experience": "0-2 years",
+      "jobType": "Full-time",
+      "postedDate": "2026-02-01",
+      "description": "Develop scalable systems, work with modern technologies, competitive salary and benefits."
+    },
+    {
+      "id": "job_002",
+      "company": "Amazon",
+      "position": "Associate Software Developer",
+      "location": "Hyderabad, India",
+      "salary": "₹12L - ₹20L per annum",
+      "experience": "Freshers to 1 year",
+      "jobType": "Full-time",
+      "postedDate": "2026-01-28",
+      "description": "Build scalable web services, work with AWS, Java/Python, mentorship program available."
+    },
+    {
+      "id": "job_003",
+      "company": "Microsoft",
+      "position": "Data Engineer",
+      "location": "Pune, India",
+      "salary": "₹14L - ₹22L per annum",
+      "experience": "1-3 years",
+      "jobType": "Full-time",
+      "postedDate": "2026-02-05",
+      "description": "Design and maintain data pipelines, Azure cloud platform, SQL/Python."
+    },
+    {
+      "id": "job_004",
+      "company": "Wipro",
+      "position": "Software Developer",
+      "location": "Bangalore, India",
+      "salary": "₹8L - ₹14L per annum",
+      "experience": "Freshers",
+      "jobType": "Full-time",
+      "postedDate": "2026-02-03",
+      "description": "Application development, OOPS, Java/.NET, on-the-job training."
+    },
+    {
+      "id": "job_005",
+      "company": "TCS",
+      "position": "IT Staff",
+      "location": "Multiple Locations",
+      "salary": "₹7.5L - ₹12L per annum",
+      "experience": "Freshers",
+      "jobType": "Full-time",
+      "postedDate": "2026-02-02",
+      "description": "IT solutions and services, various technical domains, comprehensive training."
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "hack_001",
+      "name": "InnovateMind Hackathon",
+      "date": "2026-03-15",
+      "duration": "24 hours",
+      "location": "VIT Vellore",
+      "registrationDeadline": "2026-03-10",
+      "themes": [
+        "AI/ML",
+        "IoT",
+        "Web Development"
+      ],
+      "prizePool": "₹2,00,000",
+      "description": "Build innovative solutions for real-world problems. Mentorship from industry experts, networking opportunities.",
+      "registrationLink": "https://innovatemind.com/register"
+    },
+    {
+      "id": "hack_002",
+      "name": "CodeQuest 2025",
+      "date": "2026-04-20",
+      "duration": "36 hours",
+      "location": "IIT Bombay",
+      "registrationDeadline": "2026-04-15",
+      "themes": [
+        "Blockchain",
+        "Cloud Computing",
+        "Mobile Apps"
+      ],
+      "prizePool": "₹3,00,000",
+      "description": "India's largest hackathon with mentors from top tech companies. Hotels and meals provided.",
+      "registrationLink": "https://codequest.in/register"
+    },
+    {
+      "id": "hack_003",
+      "name": "DevChallenge 2025",
+      "date": "2026-05-10",
+      "duration": "48 hours",
+      "location": "Bangalore Tech Hub",
+      "registrationDeadline": "2026-05-05",
+      "themes": [
+        "Cybersecurity",
+        "Healthcare Tech",
+        "FinTech"
+      ],
+      "prizePool": "₹1,50,000",
+      "description": "Focus on sustainable and impactful solutions. Pitch to investors, internship opportunities.",
+      "registrationLink": "https://devchallenge.io/register"
+    },
+    {
+      "id": "hack_004",
+      "name": "HackTheCity 2025",
+      "date": "2026-06-08",
+      "duration": "24 hours",
+      "location": "Smart City Innovation Center",
+      "registrationDeadline": "2026-06-03",
+      "themes": [
+        "Smart City Solutions",
+        "Urban Tech",
+        "Green Energy"
+      ],
+      "prizePool": "₹1,75,000",
+      "description": "Build solutions to tackle city challenges. Mentorship from municipal leaders and tech experts.",
+      "registrationLink": "https://hackthecity.in/register"
+    }
+  ],
+  "books": [
+    {
+      "id": "book_001",
+      "title": "Data Structures and Algorithms",
+      "author": "Mark Allen Weiss",
+      "isbn": "978-0134494068",
+      "category": "Computer Science",
+      "publisher": "Pearson",
+      "year": 2017,
+      "edition": "3rd Edition",
+      "pages": 632,
+      "language": "English",
+      "description": "Comprehensive guide to data structures and algorithms with practical implementations in C++.",
+      "availability": "Available",
+      "copies": 5,
+      "callNumber": "QA76.9.D35",
+      "location": "Stack - 3rd Floor",
+      "price": "₹1,299",
+      "rating": 4.8,
+      "reviews": 42
+    },
+    {
+      "id": "book_002",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest",
+      "isbn": "978-0262033848",
+      "category": "Computer Science",
+      "publisher": "MIT Press",
+      "year": 2009,
+      "edition": "3rd Edition",
+      "pages": 1312,
+      "language": "English",
+      "description": "The definitive guide to algorithm design and analysis. Known as CLRS, this book is a must-read for every programmer.",
+      "availability": "Available",
+      "copies": 3,
+      "callNumber": "QA75.9.A43",
+      "location": "Stack - 2nd Floor",
+      "price": "₹2,999",
+      "rating": 4.9,
+      "reviews": 156
+    },
+    {
+      "id": "book_003",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas, Andrew Hunt",
+      "isbn": "978-0201616224",
+      "category": "Programming",
+      "publisher": "Addison-Wesley",
+      "year": 2019,
+      "edition": "2nd Edition",
+      "pages": 352,
+      "language": "English",
+      "description": "Essential reading for software developers. Practical wisdom and best practices for professional programming.",
+      "availability": "Available",
+      "copies": 4,
+      "callNumber": "QA76.6.T45",
+      "location": "Stack - 1st Floor",
+      "price": "₹799",
+      "rating": 4.7,
+      "reviews": 98
+    },
+    {
+      "id": "book_004",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "isbn": "978-0132350884",
+      "category": "Software Engineering",
+      "publisher": "Prentice Hall",
+      "year": 2008,
+      "edition": "1st Edition",
+      "pages": 464,
+      "language": "English",
+      "description": "Learn how to write code that is clean, readable, and maintainable. Essential for professional developers.",
+      "availability": "Available",
+      "copies": 6,
+      "callNumber": "QA76.73.J38",
+      "location": "Stack - Ground Floor",
+      "price": "₹1,199",
+      "rating": 4.8,
+      "reviews": 203
+    },
+    {
+      "id": "book_005",
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz, Henry Korth, S. Sudarshan",
+      "isbn": "978-1259696969",
+      "category": "Database",
+      "publisher": "McGraw-Hill",
+      "year": 2020,
+      "edition": "7th Edition",
+      "pages": 1512,
+      "language": "English",
+      "description": "Comprehensive text on database systems covering relational algebra, SQL, transaction processing, and more.",
+      "availability": "Available",
+      "copies": 2,
+      "callNumber": "QA76.9.D3",
+      "location": "Stack - 2nd Floor",
+      "price": "₹2,499",
+      "rating": 4.6,
+      "reviews": 67
+    },
+    {
+      "id": "book_006",
+      "title": "Computer Networks",
+      "author": "Andrew S. Tanenbaum, David J. Wetherall",
+      "isbn": "978-0133766669",
+      "category": "Networking",
+      "publisher": "Pearson",
+      "year": 2013,
+      "edition": "5th Edition",
+      "pages": 960,
+      "language": "English",
+      "description": "In-depth exploration of computer networks, protocols, and internet technologies.",
+      "availability": "Available",
+      "copies": 3,
+      "callNumber": "TK5105.5.T36",
+      "location": "Stack - 1st Floor",
+      "price": "₹1,799",
+      "rating": 4.7,
+      "reviews": 45
+    },
+    {
+      "id": "book_007",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "author": "Stuart Russell, Peter Norvig",
+      "isbn": "978-0136042594",
+      "category": "AI & Machine Learning",
+      "publisher": "Pearson",
+      "year": 2020,
+      "edition": "4th Edition",
+      "pages": 1136,
+      "language": "English",
+      "description": "Comprehensive introduction to artificial intelligence, including machine learning, robotics, and natural language processing.",
+      "availability": "Unavailable",
+      "copies": 0,
+      "callNumber": "Q335.R86",
+      "location": "Stack - 3rd Floor",
+      "price": "₹3,299",
+      "rating": 4.8,
+      "reviews": 124
+    },
+    {
+      "id": "book_008",
+      "title": "Machine Learning Yearning",
+      "author": "Andrew Ng",
+      "isbn": "978-0692139578",
+      "category": "AI & Machine Learning",
+      "publisher": "DeepLearning.AI",
+      "year": 2018,
+      "edition": "1st Edition",
+      "pages": 220,
+      "language": "English",
+      "description": "Practical guide to machine learning strategy and how to structure ML projects for success.",
+      "availability": "Available",
+      "copies": 4,
+      "callNumber": "QA76.95.N48",
+      "location": "Stack - 3rd Floor",
+      "price": "₹999",
+      "rating": 4.7,
+      "reviews": 87
+    },
+    {
+      "id": "book_009",
+      "title": "Operating System Concepts",
+      "author": "Abraham Silberschatz, Greg Gagne, Peter Baer Galvin",
+      "isbn": "978-1119456339",
+      "category": "Operating Systems",
+      "publisher": "Wiley",
+      "year": 2018,
+      "edition": "10th Edition",
+      "pages": 992,
+      "language": "English",
+      "description": "Complete guide to operating systems including process management, memory management, and file systems.",
+      "availability": "Available",
+      "copies": 2,
+      "callNumber": "QA76.76.O63",
+      "location": "Stack - 2nd Floor",
+      "price": "₹2,199",
+      "rating": 4.6,
+      "reviews": 56
+    },
+    {
+      "id": "book_010",
+      "title": "The Art of Computer Programming",
+      "author": "Donald E. Knuth",
+      "isbn": "978-0201896831",
+      "category": "Computer Science",
+      "publisher": "Addison-Wesley",
+      "year": 2011,
+      "edition": "3rd Edition",
+      "pages": 883,
+      "language": "English",
+      "description": "Masterpiece on algorithms and programming techniques. Volume 1 covers fundamental algorithms.",
+      "availability": "Available",
+      "copies": 1,
+      "callNumber": "QA76.6.K58",
+      "location": "Stack - 4th Floor",
+      "price": "₹2,899",
+      "rating": 4.9,
+      "reviews": 201
+    },
+    {
+      "id": "book_011",
+      "title": "Web Design with HTML, CSS, and JavaScript",
+      "author": "Jon Duckett",
+      "isbn": "978-1118871232",
+      "category": "Web Development",
+      "publisher": "Wiley",
+      "year": 2014,
+      "edition": "1st Edition",
+      "pages": 640,
+      "language": "English",
+      "description": "Beautiful, illustrated guide to modern web design with HTML, CSS, and JavaScript.",
+      "availability": "Available",
+      "copies": 5,
+      "callNumber": "TK5105.888.D83",
+      "location": "Stack - 1st Floor",
+      "price": "₹1,599",
+      "rating": 4.6,
+      "reviews": 72
+    },
+    {
+      "id": "book_012",
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "isbn": "978-0596517748",
+      "category": "Web Development",
+      "publisher": "O'Reilly",
+      "year": 2008,
+      "edition": "1st Edition",
+      "pages": 176,
+      "language": "English",
+      "description": "Essential guide to the essential parts of JavaScript language and how to use them effectively.",
+      "availability": "Available",
+      "copies": 3,
+      "callNumber": "QA76.73.J39",
+      "location": "Stack - Ground Floor",
+      "price": "₹699",
+      "rating": 4.5,
+      "reviews": 95
+    }
+  ],
+  "academicCalendar": [
+    {
+      "id": "ac_001",
+      "eventName": "Odd Semester Classes Begin",
+      "date": "2026-08-05",
+      "category": "Academic",
+      "description": "First day of classes for odd semester (August 2026 - December 2026).",
+      "type": "Start Date",
+      "importance": "High",
+      "color": "#4caf50"
+    },
+    {
+      "id": "ac_002",
+      "eventName": "Mid-Semester Examination",
+      "date": "2026-10-15",
+      "category": "Examination",
+      "description": "Mid-term exams for all courses and practical papers. Class suspension period.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_003",
+      "eventName": "Diwali Break",
+      "date": "2026-10-25",
+      "category": "Holiday",
+      "description": "University closed for Diwali celebration. No classes scheduled.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#ffb347"
+    },
+    {
+      "id": "ac_004",
+      "eventName": "End Semester Examination",
+      "date": "2026-12-10",
+      "category": "Examination",
+      "description": "Final exams for odd semester. Class suspension period of 2 weeks prior.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_005",
+      "eventName": "Winter Vacation",
+      "date": "2026-12-20",
+      "category": "Holiday",
+      "description": "Winter break for students. University closed.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#2196f3"
+    },
+    {
+      "id": "ac_006",
+      "eventName": "Even Semester Classes Begin",
+      "date": "2027-01-10",
+      "category": "Academic",
+      "description": "First day of classes for even semester (January 2027 - May 2027).",
+      "type": "Start Date",
+      "importance": "High",
+      "color": "#4caf50"
+    },
+    {
+      "id": "ac_007",
+      "eventName": "Republic Day",
+      "date": "2027-01-26",
+      "category": "Holiday",
+      "description": "National holiday. University closed.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#ffb347"
+    },
+    {
+      "id": "ac_008",
+      "eventName": "Mid-Semester Examination",
+      "date": "2027-03-15",
+      "category": "Examination",
+      "description": "Mid-term exams for all courses. Class suspension period.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_009",
+      "eventName": "Foundation Day Celebration",
+      "date": "2027-04-01",
+      "category": "Event",
+      "description": "University foundation day celebration. Special assembly and cultural programs.",
+      "type": "University Event",
+      "importance": "Medium",
+      "color": "#9c27b0"
+    },
+    {
+      "id": "ac_010",
+      "eventName": "End Semester Examination",
+      "date": "2027-05-01",
+      "category": "Examination",
+      "description": "Final exams for even semester. Class suspension 2 weeks prior.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_011",
+      "eventName": "Summer Vacation",
+      "date": "2027-05-15",
+      "category": "Holiday",
+      "description": "Summer break for students. University closed.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#ff9800"
+    },
+    {
+      "id": "ac_012",
+      "eventName": "Supplementary/Revaluation Results",
+      "date": "2027-07-01",
+      "category": "Academic",
+      "description": "Supplementary and revaluation exam results announcement.",
+      "type": "Important Date",
+      "importance": "Medium",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_013",
+      "eventName": "Odd Semester Registration",
+      "date": "2026-07-20",
+      "category": "Academic",
+      "description": "Online registration for courses. Deadline: July 20, 2026",
+      "type": "Registration",
+      "importance": "High",
+      "color": "#4caf50"
+    },
+    {
+      "id": "ac_014",
+      "eventName": "Fee Payment Deadline",
+      "date": "2026-07-31",
+      "category": "Academic",
+      "description": "Last date to pay tuition fee for odd semester without penalty.",
+      "type": "Deadline",
+      "importance": "High",
+      "color": "#f44336"
+    },
+    {
+      "id": "ac_015",
+      "eventName": "Holi Festival",
+      "date": "2027-03-29",
+      "category": "Holiday",
+      "description": "National holiday. University closed for Holi celebration.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#e91e63"
+    },
+    {
+      "id": "ac_016",
+      "eventName": "Independence Day",
+      "date": "2026-08-15",
+      "category": "Holiday",
+      "description": "National holiday - Independence Day. University closed.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_017",
+      "eventName": "Ganesh Chaturthi",
+      "date": "2026-08-27",
+      "category": "Holiday",
+      "description": "Religious festival. University may be closed.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#ffc107"
+    },
+    {
+      "id": "ac_018",
+      "eventName": "Durga Puja & Dussehra",
+      "date": "2026-10-02",
+      "category": "Holiday",
+      "description": "10 days of Navratri celebration. University may have restricted classes.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#e91e63"
+    },
+    {
+      "id": "ac_019",
+      "eventName": "Diwali Holiday Break",
+      "date": "2026-10-29",
+      "category": "Holiday",
+      "description": "Diwali 5-day holiday break. University closed.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#ff9800"
+    },
+    {
+      "id": "ac_020",
+      "eventName": "Sunday - No Classes",
+      "date": "2026-08-09",
+      "category": "Holiday",
+      "description": "Weekly holiday. No classes scheduled.",
+      "type": "Weekend",
+      "importance": "Low",
+      "color": "#ffb347"
+    },
+    {
+      "id": "ac_021",
+      "eventName": "Sunday - No Classes",
+      "date": "2026-08-16",
+      "category": "Holiday",
+      "description": "Weekly holiday. No classes scheduled.",
+      "type": "Weekend",
+      "importance": "Low",
+      "color": "#ffb347"
+    },
+    {
+      "id": "ac_022",
+      "eventName": "Sunday - No Classes",
+      "date": "2026-08-23",
+      "category": "Holiday",
+      "description": "Weekly holiday. No classes scheduled.",
+      "type": "Weekend",
+      "importance": "Low",
+      "color": "#ffb347"
+    },
+    {
+      "id": "ac_023",
+      "eventName": "Janmashtami (Krishna Jayanthi)",
+      "date": "2026-08-26",
+      "category": "Holiday",
+      "description": "Religious festival. University may be closed.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#673ab7"
+    },
+    {
+      "id": "ac_024",
+      "eventName": "New Year (Tamil/Telugu/Kannada)",
+      "date": "2026-04-14",
+      "category": "Holiday",
+      "description": "Regional new year celebration. Some holiday observance.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#4caf50"
+    },
+    {
+      "id": "ac_025",
+      "eventName": "Eid ul-Fitr",
+      "date": "2026-04-11",
+      "category": "Holiday",
+      "description": "Islamic festival. Optional holiday for Muslim students.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#2196f3"
+    },
+    {
+      "id": "ac_026",
+      "eventName": "Buddha Purnima",
+      "date": "2026-05-16",
+      "category": "Holiday",
+      "description": "National holiday. University closed.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#ff9800"
+    },
+    {
+      "id": "ac_027",
+      "eventName": "Eid ul-Adha",
+      "date": "2026-07-07",
+      "category": "Holiday",
+      "description": "Islamic festival. Optional holiday for Muslim students.",
+      "type": "Holiday",
+      "importance": "Low",
+      "color": "#2196f3"
+    },
+    {
+      "id": "ac_028",
+      "eventName": "Deepavali/Diwali",
+      "date": "2026-11-08",
+      "category": "Holiday",
+      "description": "Festival of Lights. No classes for 3-5 days.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#ff9800"
+    },
+    {
+      "id": "ac_029",
+      "eventName": "Christmas Holiday",
+      "date": "2026-12-22",
+      "category": "Holiday",
+      "description": "Christmas and New Year celebration break. University closed.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#e91e63"
+    },
+    {
+      "id": "ac_030",
+      "eventName": "Holi Holiday",
+      "date": "2027-03-15",
+      "category": "Holiday",
+      "description": "Holi festival celebration. 2-3 days holiday break.",
+      "type": "Holiday",
+      "importance": "Medium",
+      "color": "#e91e63"
+    }
+    ,
+    {
+      "id": "ac_031",
+      "eventName": "Machine Learning - End Semester Exam",
+      "date": "2026-11-02",
+      "category": "Examination",
+      "description": "End semester exam for Machine Learning.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_032",
+      "eventName": "Software Engineering - End Semester Exam",
+      "date": "2026-11-04",
+      "category": "Examination",
+      "description": "End semester exam for Software Engineering.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_033",
+      "eventName": "Embedded Systems - End Semester Exam",
+      "date": "2026-11-06",
+      "category": "Examination",
+      "description": "End semester exam for Embedded Systems.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_034",
+      "eventName": "Cryptography & Network Security - Exam",
+      "date": "2026-11-09",
+      "category": "Examination",
+      "description": "End semester exam for Cryptography & Network Security.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_035",
+      "eventName": "Advanced Coding - Exam",
+      "date": "2026-11-11",
+      "category": "Examination",
+      "description": "End semester exam for Advanced Coding.",
+      "type": "Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_036",
+      "eventName": "Practical/Viva Schedule (Programming Labs)",
+      "date": "2026-11-13",
+      "category": "Examination",
+      "description": "Practical exams and vivas for programming/lab courses.",
+      "type": "Practical",
+      "importance": "High",
+      "color": "#00bcd4"
+    }
+    ,
+    {
+      "id": "ac_037",
+      "eventName": "Data Structures - End Semester Theory Exam",
+      "date": "2026-11-01",
+      "category": "Examination",
+      "description": "End semester theory exam for Data Structures (written).",
+      "type": "Theory Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_038",
+      "eventName": "Probability & Statistics - End Semester Theory Exam",
+      "date": "2026-11-03",
+      "category": "Examination",
+      "description": "End semester theory exam for Probability & Statistics (written).",
+      "type": "Theory Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_039",
+      "eventName": "Operating Systems - End Semester Theory Exam",
+      "date": "2026-11-05",
+      "category": "Examination",
+      "description": "End semester theory exam for Operating Systems (written).",
+      "type": "Theory Exam",
+      "importance": "High",
+      "color": "#ff6b6b"
+    },
+    {
+      "id": "ac_040",
+      "eventName": "Data Structures - Practical Exam",
+      "date": "2026-11-14",
+      "category": "Examination",
+      "description": "Practical exam / viva for Data Structures lab.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_041",
+      "eventName": "Probability & Statistics - Practical Exam",
+      "date": "2026-11-15",
+      "category": "Examination",
+      "description": "Practical exam / viva for Probability & Statistics lab tasks.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_042",
+      "eventName": "Operating Systems - Practical Exam",
+      "date": "2026-11-16",
+      "category": "Examination",
+      "description": "Practical exam / viva for Operating Systems lab.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_043",
+      "eventName": "Machine Learning - Practical Exam",
+      "date": "2026-11-17",
+      "category": "Examination",
+      "description": "Practical exam / project evaluation for Machine Learning labs.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_044",
+      "eventName": "Software Engineering - Practical Exam",
+      "date": "2026-11-18",
+      "category": "Examination",
+      "description": "Project demo / viva for Software Engineering labs.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_045",
+      "eventName": "Embedded Systems - Practical Exam",
+      "date": "2026-11-19",
+      "category": "Examination",
+      "description": "Hardware/firmware practicals and viva for Embedded Systems lab.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_046",
+      "eventName": "Cryptography & Network Security - Practical Exam",
+      "date": "2026-11-20",
+      "category": "Examination",
+      "description": "Practical / lab evaluation for Cryptography & Network Security.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    },
+    {
+      "id": "ac_047",
+      "eventName": "Advanced Coding - Practical Exam",
+      "date": "2026-11-21",
+      "category": "Examination",
+      "description": "Coding practicals and live problem-solving evaluation for Advanced Coding.",
+      "type": "Practical Exam",
+      "importance": "High",
+      "color": "#00bcd4"
+    }
+  ],
+  "applications": [],
+  "registrations": []
+}
