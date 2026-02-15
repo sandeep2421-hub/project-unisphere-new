@@ -77,7 +77,7 @@ const Engoulp = () => {
         <p>UniSphere...😎</p>
         <div className="icons">
           <i className='bx bxl-facebook-square'></i>
-          <a href="https://x.com/engoulp62830?s=11" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <i class='bx bxl-twitter'></i>
           </a>
           <a href="https://www.instagram.com/sandeepkumar_2421/" target="_blank" rel="noopener noreferrer">
@@ -85,7 +85,7 @@ const Engoulp = () => {
           </a>
           <i className='bx bxl-linkedin-square'></i>
         </div>
-        <p>Made with <i className='bx bx-heart'></i> by Engoulp</p>
+        <p>Made with <i className='bx bx-heart'></i> by SANDEEP</p>
         <p>UniSphere - All Copyrights Reserved</p>
       </section>
     </body>
